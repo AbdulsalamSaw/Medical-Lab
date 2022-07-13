@@ -1,0 +1,243 @@
+.register
+{
+    padding: auto;
+    border: white;
+    background-color: white;
+    margin-left:5%;
+    width: 70%;
+    border-radius: 2%;
+    font-style: oblique;
+}
+.eegister .titel{
+ margin-bottom:5%;
+}
+
+.image{
+  background-image:url('/images/logo.png'); 
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 60%;
+  padding-bottom: 18%;
+
+}
+.title .header{
+  font-size:55px;
+    color: #000;
+    
+  }
+.title  .paragraph
+{ 
+  margin-right: 6%;
+  opacity: 0.5;
+}
+
+.image .title
+{
+  padding-top: 6%;
+  width: 90%;
+}
+
+
+
+
+.viewpatient
+{
+    padding: auto;
+    border: white;
+    background-color: white;
+    margin-left:5%;
+    
+    width: 70%;
+    border-radius: 2%;
+    font-style: oblique;
+}
+.viewpatient .Name{
+ margin-top:3%;
+
+ margin-bottom:3%;
+}
+
+.viewpatient .edit
+{
+ color: #e8b007;
+ margin-left: 6%;
+
+}
+.viewpatient .delete
+{
+  margin-left: 4%;
+  color: #F44336
+}
+.viewpatient .print
+{
+  margin-right: 4%;
+  color: #F44336
+}
+ .box {
+    padding: auto;
+    border: white ;
+    background-color: white;
+    margin-top: 13%;
+    margin-bottom: 20%;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    border-radius: 2%;
+    font-style: oblique;
+  }
+  
+
+.adduser{
+ margin-left: 85%;
+
+}
+
+@page
+{
+  size: A4;;
+  margin:3%;
+}
+
+
+
+
+.loge{
+  width: 25%;
+  margin-left: 9%;
+}
+
+#navbarnav
+{
+  
+  background-color:white;
+  color: black;
+  height: 100%;
+  width: 50%;
+  margin-left: auto;
+}
+.navbar{
+  height: 9%;
+  background-color: white;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+  .navbar{
+    height: 16%;
+    background-color: white;
+    width: 100%;
+
+  }
+  .navbar #navbarnav
+  {
+
+    width: 200%;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    font-size: large;
+    margin-left: 2%;
+    height: max-content;
+    
+
+
+  }
+  
+  .loge{
+    
+    width: 40%;
+    margin-left: 10%;
+
+   
+  }
+  .image {width: 100%;}
+  .image {background-position-x:center}
+  .image .title h1{
+    margin-top: 45%;
+    font-size: small;
+   
+
+  }
+ 
+  
+  #contact_section .contact{
+      border: white;
+      background-color: white;
+      width: 100%;
+      margin-top:5% ;
+  }
+
+
+}
+
+
+.img_contact
+{
+  background-image: url('/images/contact.jpg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 50%;
+  height: 50%;
+
+}
+.contact{
+
+  border-radius:5% ;
+  background-color: white;
+  width: 50%;
+  background-position-x: left;
+
+  
+}
+#contact_section{
+  margin-bottom: 4%;
+}
+#contact_section h1{
+
+  margin-bottom: 3%;
+  color: black;
+}
+
+#contact_section .row{
+  margin-left:3%;
+  margin-top: 1%;
+  margin-right: 3%;
+}
+.about_us{
+  background-color:#e9ecef;
+  padding: 2%;
+  box-sizing:border-box;
+
+
+}
+.about_us .header{
+  text-align:center;
+  color: #000;
+  font-size: 40px;
+}
+
+.clients
+{
+  margin-top: 3%;
+}
+.clients .header{
+
+  text-align:center;
+  color: #000;
+  font-size: 40px;
+}
+.clients .img,.img1,.img2,.img3,.img4,.img5{
+  width:100%;
+  height:70%;
+}
+
+
+
+.profile{
+  margin-top: 5%;
+  margin-left:6%;
+  margin-right: 6%;
+  margin-bottom: 25%;
+}
+
